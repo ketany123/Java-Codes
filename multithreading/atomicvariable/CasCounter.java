@@ -25,7 +25,6 @@ public class CasCounter {
             if (counter.compareAndSet(current, next)) {
                 return;
             }
-
             /*
              * CAS failed.
              *
